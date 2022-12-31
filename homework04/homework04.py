@@ -6,9 +6,9 @@ var = input('I will let you know whether you have typed a text or a number.\nGo 
 
 if var.isdigit():
     var = int(var)
-    if bool(int(var) % 2) is False:
-         print(f'{var} is a number. It\'s even.')
-    elif bool(int(var) % 2) is True:
+    if int(var) % 2:
         print(f'{var} is a number. It\'s odd.')
+    else:
+        print(f'{var} is a number. It\'s even.')
 else:
     print(f'"{var}" is a text. It\'s {len(var)} characters long.')
