@@ -25,10 +25,10 @@ for letter in text:
 # 2. Create a program that will print “I love Python” every 4.2 seconds
 # until its execution is manually interrupted.
 
-# import time
-#
-# x = 'I love Python'
-#
-# while True:
-#     print(x)
-#     time.sleep(4.2)
+import time
+
+x = 'I love Python'
+
+while True:
+    print(x)
+    time.sleep(4.2)
