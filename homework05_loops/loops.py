@@ -4,7 +4,6 @@
 #     - this is a letter + whether its uppercase or lowercase
 #     - this is a symbol
 
-
 text = input('Enter something here: ')
 
 for letter in text:
